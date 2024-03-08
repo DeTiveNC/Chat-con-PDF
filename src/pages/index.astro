@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import App from "../components/App.svelte";
+---
+
+<Layout title="Chat with pdf.">
+  <div
+    class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"
+  >
+  </div>
+  <main class="grid place-content-center min-h-screen w-screen text-white">
+    <h1 class="text-6xl opacity-90 font-bold text-center pb-18 p-8">
+      Chat with PDF
+    </h1>
+    <section class="container w-[1000px] max-w-xl h-64">
+      <App client:idle />
+    </section>
+  </main>
+</Layout>
+
+<style></style>
