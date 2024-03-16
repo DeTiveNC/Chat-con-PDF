@@ -1,7 +1,16 @@
-# Chat-con-PDF
+<p>
+  <h3 align="center">Chat with PDF Project</h3>
+</p>
 
-Este proyecto entre los muchos que hay sirve para hablar con un PDF con ChatGPT y que te hable del mismo. Buscando por internet puedes ver el tipo de proyecto que es.
+<p>
+  <h3 align="center"> To use it change the .env.example for .env and then add your keys that is going to be need it for run the project </h3>
+</p>
 
-Proyecto Creado con la ayuda de MiduDev en su pagina de youtube podeis ver el chulisimo tutorial
+## License
 
-El archivo .env.example se usa para hacer el .env necesario para los valores de cloudinary y openai
+Distributed under the MIT License. See [LICENSE](https://github.com/DeTiveNC/Quarkus/blob/main/LICENSE) for more information.
+
+## Authors
+
+- **Nicolas Cao** - _Comp Eng Student_ - [Nicolas Cao](https://github.com/detivenc)
+- **Midu Dev** - _Create the Tutorial_ [Midu](https://github.com/midudev)
